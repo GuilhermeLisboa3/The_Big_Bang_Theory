@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <title>The Big Bang</title>
+</head>
+<body>
+    <i class="bi bi-list menu-mobile"></i>
+    
+    <aside class="color-top-menu">
+        <div class="container">
+            <section class="section_menu">
+                <section class="menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                viewBox="0 0 226 226"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g id="original-icon" fill="#ffffff"><path d="M147.25497,9.41667c-8.46038,-0.02578 -15.30797,9.0286 -19.97364,26.1993c-1.34658,-0.72508 -2.65881,-1.38234 -3.98185,-2.0415c0.02354,-0.24012 0.07357,-0.47694 0.07357,-0.72648c0,-3.8985 -3.25331,-7.0625 -7.26481,-7.0625c-2.17054,0 -4.09316,0.94034 -5.42562,2.40934c-0.7345,-0.25425 -1.52366,-0.56956 -2.23462,-0.79085c-9.17183,-2.82029 -15.28053,-2.54375 -18.16203,0.83683l-0.11035,0.13794l-0.09196,0.15633c-1.5302,2.69317 -0.26057,6.62014 3.99105,12.35018c3.57363,4.81662 9.27166,10.75692 16.04696,16.93896c2.50012,0.32017 4.99054,0.60098 7.46712,0.85523c1.84096,-1.05467 3.74129,-2.11323 5.76587,-3.17261c-0.16008,1.19592 -0.26808,2.44054 -0.40462,3.65999c1.30421,0.10358 2.61327,0.18664 3.91748,0.26668c0.23542,-2.01988 0.40249,-4.09676 0.6897,-6.06014c3.86554,-1.90687 7.94987,-3.80066 12.26742,-5.64632c3.85613,2.66963 7.566,5.50882 10.99837,8.4327c-0.18363,1.03113 -0.42757,2.12265 -0.62532,3.17261c2.85325,-0.19775 5.78249,-0.46532 8.80053,-0.81844c-1.28067,-1.26654 -2.5642,-2.54507 -4.00024,-3.81632c0.81454,-4.82605 1.4253,-9.37746 1.8208,-13.60083c9.12946,-3.24875 17.89998,-5.86401 24.76473,-7.36597c5.15092,-1.12529 8.22053,-1.41618 10.0144,-1.41618c1.37954,0 1.99921,0.17722 2.23462,0.26668l0.06437,0.10116c-0.03767,0.35313 -0.61922,2.79565 -8.72697,9.46265c-1.1865,-0.81454 -2.621,-1.29663 -4.18416,-1.29663c-4.0115,0 -7.26481,3.164 -7.26481,7.0625c0,0.86162 0.18179,1.67418 0.469,2.43693c-3.63483,2.51896 -7.64501,5.1209 -11.82601,7.72461c2.98508,-0.40492 6.09118,-0.89245 9.27873,-1.46215c1.63379,-1.08292 3.2795,-2.16841 4.80029,-3.22778c1.24771,0.97933 2.81485,1.5909 4.54281,1.5909c4.0115,0 7.26481,-3.164 7.26481,-7.0625c0,-1.02642 -0.2388,-1.99788 -0.64372,-2.87834c4.10567,-3.38058 7.14563,-6.35169 8.69938,-8.62581c1.44546,-2.11404 1.81021,-3.90703 1.08512,-5.33366c-0.32958,-0.87104 -1.17362,-1.88937 -3.28296,-2.29899c-6.15379,-1.19121 -21.82665,2.94315 -36.93099,8.22119c0.60267,-9.23304 0.08615,-16.5751 -1.62768,-21.11393c-1.40308,-3.71958 -3.60033,-5.84635 -6.53833,-6.33602h-0.04598c-0.57824,-0.08269 -1.14642,-0.12703 -1.71045,-0.12874zM147.25497,13.16862c0.36725,0 0.74524,0.02178 1.12191,0.07357c1.469,0.25425 2.66447,1.58171 3.54964,3.93587c1.62437,4.30813 1.98986,11.80718 1.25065,21.24268c-2.42008,0.88517 -4.8061,1.78571 -7.10848,2.69442c-1.62909,0.64033 -3.59982,1.43626 -5.77507,2.34497c-1.71383,-1.14883 -3.45702,-2.27766 -5.25089,-3.38411c-1.45488,-0.89458 -2.90402,-1.70471 -4.35889,-2.53809c2.58958,-9.88279 7.86071,-24.3693 16.57113,-24.3693zM98.91178,29.29834c2.65256,0.17244 6.0675,0.91349 10.06958,2.25301c-0.08004,0.41904 -0.13794,0.85405 -0.13794,1.29663c0,3.8985 3.25331,7.0625 7.26481,7.0625c2.38712,0 4.48881,-1.14118 5.81185,-2.86914c1.42192,0.71567 2.88474,1.49365 4.37728,2.30819c-0.86162,3.62071 -1.61268,7.49626 -2.25301,11.55013c-3.34292,1.68088 -6.71026,3.50035 -9.96842,5.40722c-7.1755,-6.44571 -13.19739,-12.65239 -16.8746,-17.61027c-4.15275,-5.5935 -3.96743,-7.69386 -3.79793,-8.22119c0.96285,-0.95108 2.85582,-1.34953 5.50838,-1.17708zM129.79183,41.33586c1.05467,0.61679 2.10809,1.24418 3.191,1.91276c1.05467,0.64975 2.10896,1.32672 3.15421,2.00472c-2.48129,1.07821 -5.11781,2.26831 -7.85335,3.57723c0.452,-2.599 0.96197,-5.09346 1.50814,-7.49471zM152.80013,42.58651c-0.31075,2.92388 -0.72376,6.00327 -1.23226,9.21435c-2.37771,-1.95396 -4.91278,-3.89151 -7.56828,-5.78426c2.86737,-1.17238 5.80133,-2.31422 8.80054,-3.43009zM139.77865,52.22388c-2.58903,-0.24125 -5.48411,0.79048 -7.69702,2.98869c-3.54067,3.52183 -3.99664,8.70093 -1.01155,11.57772c2.98038,2.87679 8.27614,2.35843 11.81681,-1.15869c3.54067,-3.51712 3.99664,-8.69622 1.01156,-11.57772c-1.11941,-1.08056 -2.56637,-1.68524 -4.11979,-1.83zM94.16667,61.20833c-2.599,0 -4.70833,2.10933 -4.70833,4.70833v47.08333c0,2.599 2.10933,4.70833 4.70833,4.70833h18.47469c7.82054,0 10.61214,-4.89689 10.61214,-8.81893v-12.7548c0,-4.67067 -4.94824,-8.53385 -8.24878,-8.53385c3.29583,0 7.5106,-2.44311 7.42114,-8.06486v-4.84627c0.00471,-13.48467 -11.59993,-13.48128 -15.75268,-13.48128zM166.91593,61.2819c-8.30079,-0.04355 -16.59872,3.96243 -16.59872,12.14787v31.68929c0,11.58721 16.24875,17.37912 23.13705,8.21199v-0.42301l1.14949,3.79793h4.21175c2.599,0 4.70833,-2.10933 4.70833,-4.70833v-17.41715v-7.09929c0,-0.61679 -0.50512,-1.11271 -1.12191,-1.11271h-7.79818h-2.79557c-2.599,0 -4.70833,2.10933 -4.70833,4.70833v3.50366h2.94271v11.81681c0,2.90975 -5.36125,2.90975 -5.36125,0v-32.96753c0,-2.53779 4.65316,-2.62254 4.65316,0v5.37044c0,2.599 2.10933,4.70833 4.70833,4.70833h4.77271c2.599,0 4.70833,-2.10933 4.70833,-4.70833v-5.37044c0,-8.01123 -8.30712,-12.10432 -16.60791,-12.14787zM104.1167,70.83651c3.03217,0 4.70833,1.26522 4.70833,2.99789v5.93139c0.00471,2.36358 0.17892,4.44636 -4.70833,4.44165zM134.95076,73.15389c-2.599,0 -4.70833,2.10933 -4.70833,4.70833v35.13778c0,2.599 2.10933,4.70833 4.70833,4.70833h4.8003c2.599,0 4.70833,-2.10933 4.70833,-4.70833v-35.13778c0,-2.599 -2.10933,-4.70833 -4.70833,-4.70833zM45.04183,87.34326c-1.2995,0 -2.35417,1.05467 -2.35417,2.35417v25.66593c0,1.2995 1.05467,2.35417 2.35417,2.35417h3.66919c1.2995,0 2.35417,-1.05467 2.35417,-2.35417v-16.83781c0,-1.28067 2.21623,-2.13964 2.21623,-0.69889v17.5367c0,1.2995 1.05467,2.35417 2.35417,2.35417h3.66919c1.2995,0 2.35417,-1.05467 2.35417,-2.35417v-17.5367c0,-7.32146 -7.70754,-5.55488 -10.59375,-4.552v-3.57723c0,-1.2995 -1.05467,-2.35417 -2.35417,-2.35417zM32.98592,89.5319c-1.2995,0 -2.35417,1.05467 -2.35417,2.35417v1.44377h-2.38175v4.23934h2.38175v16.46997c0,2.034 1.32312,3.67839 3.72437,3.67839h7.57747v-4.3313h-1.49894c-0.82396,0.00471 -1.58171,-0.91783 -1.58171,-1.5817v-14.23535h2.38175v-4.23934h-2.38175v-1.44377c0,-1.2995 -1.05467,-2.35417 -2.35417,-2.35417zM73.3654,91.78491c-4.74247,-0.06827 -9.48104,1.76275 -9.48104,5.71069v14.68596c0,7.24613 18.97127,7.39208 18.97127,0v-2.84155c0,-1.2995 -1.05467,-2.35417 -2.35417,-2.35417h-0.02759c-2.87208,0 -5.20492,2.32364 -5.20492,5.19572c0,1.49725 -3.01628,1.46429 -3.01628,0v-6.69466l10.60295,-0.0092v-7.9821c0,-3.67485 -4.74777,-5.64242 -9.49023,-5.71069zM104.1167,92.33667c3.59246,0 4.70833,1.26934 4.70833,3.80713v8.31315c0.00471,2.18937 0.00471,3.68758 -4.70833,3.68758zM73.3654,96.57601c0.55558,0.0053 1.11271,0.31457 1.11271,0.91959v3.56804h-2.22542v-3.56804c0,-0.62621 0.55713,-0.92489 1.11271,-0.91959zM173.53703,121.34994c-9.66974,-0.04355 -19.34831,3.96243 -19.34831,12.14787v32.72843c0,11.5825 18.93037,17.37441 26.95337,8.21199v-0.43221l1.34261,3.80713h5.68311c2.599,0 4.70833,-2.10933 4.70833,-4.70833v-14.33651v-3.50366c0,-2.599 -2.10933,-4.70833 -4.70833,-4.70833h-5.68311h-4.03702c-2.599,0 -4.70833,2.10934 -4.70833,4.70833v3.50366h3.43009v8.71778c0,2.90975 -6.24406,2.90975 -6.24406,0v-33.98828c0,-2.53779 5.41642,-2.62254 5.41642,0v5.37044c0,2.599 2.10933,4.70833 4.70833,4.70833h7.11768c2.599,0 4.70833,-2.10933 4.70833,-4.70833v-5.37044c0,-8.01123 -9.66937,-12.10432 -19.33911,-12.14787zM32.95833,122.42586c-2.599,0 -4.70833,2.10933 -4.70833,4.70833v47.07414c0,2.599 2.10933,4.70833 4.70833,4.70833h22.10709c9.04942,0 12.2719,-4.89689 12.27661,-8.81893v-12.73641c0,-4.67067 -5.72246,-8.53385 -9.53621,-8.53385c3.81375,0 8.68341,-2.45231 8.57983,-8.07406v-4.83707c0,-13.48938 -13.4147,-13.49048 -18.2172,-13.49048zM81.01644,122.42586c-2.32121,0 -4.29084,1.69338 -4.64396,3.99105l-7.22803,47.07414c-0.20717,1.356 0.19054,2.739 1.08512,3.77954c0.89458,1.04525 2.20239,1.64608 3.57723,1.64608h7.45793c2.44362,0 4.47806,-1.8695 4.68994,-4.30371l0.4506,-5.26009h5.82105l0.4506,5.26009c0.20717,2.43421 2.24632,4.30371 4.68994,4.30371h7.45792c1.37013,0 2.68286,-0.60083 3.56803,-1.64608c0.89458,-1.04054 1.29229,-2.42354 1.08512,-3.77954l-7.22803,-47.07414c-0.34842,-2.29767 -2.32724,-3.99105 -4.65316,-3.99105zM116.93587,122.42586c-2.599,0 -4.70833,2.10933 -4.70833,4.70833v47.07414c0,2.599 2.10933,4.70833 4.70833,4.70833h4.53361c2.599,0 4.70833,-2.10933 4.70833,-4.70833v-20.13916l8.212,21.80363c0.69213,1.83154 2.4462,3.04386 4.40487,3.04386h5.98657c2.599,0 4.70833,-2.10933 4.70833,-4.70833v-47.07414c0,-2.599 -2.10933,-4.70833 -4.70833,-4.70833h-4.53361c-2.599,0 -4.70833,2.10933 -4.70833,4.70833v20.53459l-8.22119,-22.17147c-0.68742,-1.84567 -2.44598,-3.07145 -4.41406,-3.07145zM45.20736,132.05404c3.50771,0 5.45321,1.26993 5.45321,2.99789v5.93139c0,2.36358 0.19679,4.44636 -5.45321,4.44165zM89.29281,137.36011l2.93351,21.44499h-5.81185zM45.20736,153.545c4.15275,0 5.45321,1.26934 5.45321,3.80713v8.30396c0,2.19408 -0.00566,3.69229 -5.45321,3.68758zM46.77067,183.625c-1.2995,0 -2.35417,1.05467 -2.35417,2.35417v1.86678c0,1.2995 1.05467,2.35417 2.35417,2.35417h2.85995v24.02905c0,1.2995 1.05467,2.35417 2.35417,2.35417h3.57723c1.2995,0 2.35417,-1.05467 2.35417,-2.35417v-24.02905h2.85995c1.2995,0 2.35417,-1.05467 2.35417,-2.35417v-1.86678c0,-1.2995 -1.05467,-2.35417 -2.35417,-2.35417zM67.86621,183.625c-1.2995,0 -2.35417,1.05467 -2.35417,2.35417v28.25c0,1.2995 1.05467,2.35417 2.35417,2.35417h3.86231c1.2995,0 2.35417,-1.05467 2.35417,-2.35417v-11.04435h2.38175v11.04435c0,1.2995 1.05467,2.35417 2.35417,2.35417h3.85311c1.2995,0 2.35417,-1.05467 2.35417,-2.35417v-28.25c0,-1.2995 -1.05467,-2.35417 -2.35417,-2.35417h-3.85311c-1.2995,0 -2.35417,1.05467 -2.35417,2.35417v10.38224h-2.38175v-10.38224c0,-1.2995 -1.05467,-2.35417 -2.35417,-2.35417zM91.26994,183.625c-1.2995,0 -2.35417,1.05467 -2.35417,2.35417v28.25c0,1.2995 1.05467,2.35417 2.35417,2.35417h0.21151h6.22566h3.86231c1.2995,0 2.35417,-1.05467 2.35417,-2.35417v-1.25985c0,-1.2995 -1.05467,-2.35417 -2.35417,-2.35417h-3.86231v-7.85335h2.54728c1.2995,0 2.35417,-1.05467 2.35417,-2.35417v-0.47819c0,-1.2995 -1.05467,-2.35417 -2.35417,-2.35417h-2.54728v-7.37517h3.16341c1.2995,0 2.35417,-1.05467 2.35417,-2.35417v-1.86678c0,-1.2995 -1.05467,-2.35417 -2.35417,-2.35417h-3.16341h-3.49446zM151.20003,183.625c-0.75333,0 -1.45179,0.36269 -1.89436,0.97477c-0.44259,0.60737 -0.57567,1.39021 -0.34025,2.10588l4.99341,15.36646v12.15706c0,1.2995 1.05467,2.35417 2.35417,2.35417h3.71517c1.2995,0 2.35417,-1.05467 2.35417,-2.35417v-12.16626l4.85547,-15.37565c0.226,-0.71567 0.10234,-1.4985 -0.34025,-2.10588c-0.44258,-0.60267 -1.14574,-0.95638 -1.89437,-0.95638h-3.03467c-1.15354,0 -2.13825,0.83323 -2.32658,1.96794l-1.46216,8.86491l-1.62768,-8.90169c-0.20246,-1.11588 -1.17797,-1.93115 -2.31739,-1.93115zM131.29997,183.68018c-1.2995,0 -2.35417,1.05467 -2.35417,2.35417v28.19482c0,1.2995 1.05467,2.35417 2.35417,2.35417h6.00496v-16.64469c2.50012,0 2.24382,1.72722 2.24382,2.18864v12.10189c0,1.2995 1.05467,2.35417 2.35417,2.35417h3.65079c1.2995,0 2.35417,-1.05467 2.35417,-2.35417v-10.4926c0,-4.00679 -1.36034,-5.55436 -4.91984,-5.55436c3.5595,0 4.91984,-1.39205 4.91984,-5.16813v-2.36336c0,-5.56054 -2.3869,-6.97054 -10.60295,-6.97054zM116.31974,183.70776c-4.81309,0.00706 -9.62817,2.36535 -9.62817,6.98893v18.89771c0,9.25188 19.24715,9.41953 19.24715,-0.11955v-18.6678c0,-4.76954 -4.80589,-7.10635 -9.61898,-7.09929zM137.30493,188.8667c0.64975,0 2.24382,-0.13559 2.24382,1.33341v3.74276c0,1.66675 -1.62703,1.55412 -2.24382,1.55412zM116.31974,189.05982c0.6627,0.01824 1.32422,0.60289 1.32422,1.75643v18.65861c0,2.30708 -2.64844,2.33717 -2.64844,0.11955v-18.89771c0,-1.10881 0.66152,-1.65513 1.32422,-1.63688z"></path></g></g></svg>
+                </section>
+                <div class="nav">
+                    <a class="navv" href="#sobre"><i class="bi bi-journal-text icon"></i>Sobre</a>
+                    <a class="navv" href="#itens"><i class="bi bi-bag icon"></i>Itens</a>
+                    <a class="navv" href="#personagens"><i class="bi bi-person icon"></i>Personagens</a>
+                    <a class="navv" href="#mais-informacao"><i class="bi bi-info-circle icon"></i>Mais informações</a>
+                </div>
+            </section>
+        </div>
+    </aside>
+
+    <main id="main">
+        <section class="painel">
+          <img src="img/thebigbang.jpg" alt="">
+          <div class="texto">
+            <h1>The Big Bang Theory</h1>
+            <span id="digita"></span>
+            
+          </div>
+        </section>
+
+        <section class="container mt-5" id="sobre">
+
+                <div class="row w-100">
+                    <div class="col-md-12" data-anime="down">
+                        <h2 class="pt-3">Sobre</h2>
+                        <p>The Big Bang Theory é uma sitcom americana transmitida originalmente pelo canal CBS. A história acompanha um grupo de amigos que vivem em Pasadena, Califórnia. A turma é formada por Leonard Hofstadter e Sheldon Cooper, dois brilhantes físicos que inicialmente dividem um apartamento; Penny, uma garçonete e aspirante a atriz que mora do outro lado do corredor; e os amigos e colegas de trabalho de Leonard e Sheldon, igualmente geeks e socialmente desajeitados, o engenheiro aeroespacial Howard Wolowitz e o astrofísico Raj Koothrappali. 
+                        Ao longo da história da série, outros personagens foram adicionados ao grupo, incluindo Stuart Bloom, dono de uma loja de quadrinhos frequentada pelos amigos; Bernadette Rostenkowski, colega de Penny que desenvolve uma relação com Howard; e Amy Farrah Fowler,que se envolve com Sheldon.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                        <div class="col-md-4"data-anime="left">
+                            <img class="img-fluid shadow" src="img/'The Big Bang Theory'_ Todo lo que necesitas saber sobre la temporada 12.jpg" alt=" the big bang elenco">
+                        </div>
+                        <div class="col-md-8" data-anime="rigth">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">
+                                    Gênero: <span class="fw-lighter">Comédia</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Duração: <span class="fw-lighter">18–22 minutos</span>
+                                   
+                                </li>
+                                <li class="list-group-item">
+                                    Criadores: <span class="fw-lighter">Chuck Lorre e Bill Prady</span>
+                                   
+                                </li>
+                                <li class="list-group-item">
+                                    País de origem: <span class="fw-lighter">Estados Unidos</span>
+                                   
+                                </li>
+                                <li class="list-group-item">
+                                    Diretor: <span class="fw-lighter">Mark Cendrowski</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Produtor: <span class="fw-lighter">	Faye Oshima Belyeu</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Editor: <span class="fw-lighter">Peter Chakos</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Emissora original: <span class="fw-lighter">CBS</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Transmissão original: <span class="fw-lighter">24 de setembro de 2007 – 16 de maio de 2019</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Temporadas: <span class="fw-lighter"> 12</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Episódios: <span class="fw-lighter"> 279</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Elenco: <span class="fw-lighter">	
+                                        Johnny Galecki,
+                                        Jim Parsons,
+                                        Kaley Cuoco,
+                                        Simon Helberg,
+                                        Kunal Nayyar,
+                                        Sara Gilbert,
+                                        Mayim Bialik,
+                                        Melissa Rauch,
+                                        Kevin Sussman e
+                                        Laura Spencer.</span>
+                                </li>
+                              </ul>
+                        </div>
+                </div>
+                
+        </section>
+
+        <section id="itens" class="section-bg mt-5 pb-5">
+          <div class="container" data-anime="rigth">
+            <h1 class="pt-3 text-white" >Itens</h1>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+               
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="itens mt-5">
+
+                    <div class="carrosell-itens">
+                      <img src="img/actionFigurePanny.webp" alt="">
+                      <h5>Panny</h5>
+                      <p>R$ 130,00</p>
+                    </div>
+                    <div class="carrosell-itens">
+                      <img src="img/actionFigureLeornard.webp" alt="">
+                      <h5>Leonard</h5>
+                      <p>R$ 140,00</p>
+                    </div>
+                    <div class="carrosell-itens">
+                      <img src="img/actionFigureBernadette.webp" alt="">
+                      <h5>Bernadette</h5>
+                      <p>R$ 110,00</p>
+                    </div>
+                    <div class="carrosell-itens">
+                      <img src="img/actionFigureHaward.webp" alt="">
+                      <h5>Haward</h5>
+                      <p>R$ 120,00</p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="itens2 mt-5">
+
+                    <div class="carrosell-itens2">
+                      <img src="img/actionFigureAmy.webp" alt="">
+                        <h5>Amy</h5>
+                        <p>R$ 150,00</p>
+                    </div>
+                    <div class="carrosell-itens2">
+                      <img src="img/actionFigureSheldon.webp" alt="">
+                        <h5>Sheldon</h5>
+                        <p>R$ 190,00</p>
+                    </div>
+                    <div class="carrosell-itens2">
+                      <img src="img/actionFigureStuard.webp" alt="">
+                        <h5>Stuart</h5>
+                        <p>R$ 99,00</p>
+                    </div>
+                    <div class="carrosell-itens2">
+                      <img src="img/actionFigureRaj.webp" alt="">
+                        <div class="raj">
+                          <h5>Raj</h5>
+                          <p>R$ 130,00</p>
+                        </div>
+                    </div>
+
+                  </div>
+                </div>
+                
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="personagens" class="mt-5 pb-5">
+            <div class="container"  data-anime="up">
+              <h1 data-anime="down">Personagens</h1>
+              <p data-anime="down">Aqui vocês vão ver todos os personagens da série The Big Bang Theory.Contando todos os seus objetivos,sonhos e conquistas. </p>
+
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active" data-bs-interval="50000">
+                    <div class="personagem">
+                      <div class="imagem-personagem"><img src="img/sheldon.jpg" alt="Sheldon"></div>
+                      <ul class="list-group list-group-flush fs-5">
+                        <li class="list-group-item">
+                            Nome Completo: <span class="fw-lighter">Sheldon Lee Cooper</span>
+                        </li>
+                        <li class="list-group-item">
+                            Interpretado por: <span class="fw-lighter">Jim Parsons</span>
+                        </li>
+                        <li class="list-group-item">
+                            Dublado por: <span class="fw-lighter">Sérgio Cantú e Lorenzo Tarantelli</span>
+                        </li>
+                        <li class="list-group-item">
+                            Apelido: <span class="fw-lighter">Shelly</span>
+                        </li>
+                        <li class="list-group-item">
+                            Nascimento: <span class="fw-lighter">26 de Fevereiro de 1980</span>
+                        </li>
+                        <li class="list-group-item">
+                            Idade: <span class="fw-lighter">40 anos</span>
+                        </li>
+                        <li class="list-group-item">
+                            Origem: <span class="fw-lighter">Galvestron,Texas</span>
+                        </li>
+                        <li class="list-group-item">
+                            Ocupação: <span class="fw-lighter">Físico teórico</span>
+                      </li>
+                        <li class="list-group-item">
+                          Bibliografia: <span class="fw-lighter">Originalmente da cidade de Galveston, no leste do Texas, Sheldon é um físico teórico que possui uma lousa branca na sala de seu apartamento onde ficam suas anotações de equações e teorias científicas.
+                            Possui um temperamento arrogante, chegando a pensar que só apareceria alguém mais inteligente que ele após centenas de anos, e que o nome desse teria um asterisco na frente, pois seria um robô. Sheldon chega a dizer que é mais inteligente que Isaac Newton, já que "gravidade para ele seria evidente sem a maçã", e também diz para a sua irmã que é uma mutação genética superio.</span>
+                      </li>
+
+                      </ul> 
+                    </div>
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="50000">
+                    <div class="personagem">
+                      <div class="imagem-personagem leonard">
+                        <img src="img/leonard.jpg" alt="Leonard">
+                      </div>
+                      <ul class="list-group list-group-flush fs-5">
+                        <li class="list-group-item">
+                            Nome Completo: <span class="fw-lighter">Leonard Leakey Hofstadter</span>
+                        </li>
+                        <li class="list-group-item">
+                            Interpretado por: <span class="fw-lighter">Johnny Galecki</span>
+                        </li>
+                        <li class="list-group-item">
+                            Dublado por: <span class="fw-lighter">Gustavo Nader</span>
+                        </li>
+                        <li class="list-group-item">
+                            Apelido: <span class="fw-lighter">Lenny</span>
+                        </li>
+                        <li class="list-group-item">
+                            Nascimento: <span class="fw-lighter">17 de maio de 1980</span>
+                        </li>
+                        <li class="list-group-item">
+                            Idade: <span class="fw-lighter">41 anos</span>
+                        </li>
+                        <li class="list-group-item">
+                            Origem: <span class="fw-lighter">Nova Jersey</span>
+                        </li>
+                        <li class="list-group-item">
+                            Ocupação: <span class="fw-lighter">Físico Experimental</span>
+                      </li>
+                        <li class="list-group-item">
+                          Bibliografia: <span class="fw-lighter">Dr. Leonard Leakey Hofstadter, Ph.D., é um físico experimental do Instituto de Tecnologia da Califórnia que anteriormente morava com Sheldon Cooper no apartamento 4A e agora ele e sua esposa Penny moram naquele apartamento e também anteriormente morava no apartamento de Penny Apartamento 4B . Ao lado de Sheldon, ele é o principal protagonista de The Big Bang Theory . Originalmente de Nova Jersey.</span>
+                      </li>
+
+                      </ul> 
+                    </div>
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="50000">
+                    <div class="personagem">
+                      <div class="imagem-personagem howard">
+                        <img src="img/Howard Wolowitz.jpg" alt="Howard Wolowitz">
+                      </div>
+                      <ul class="list-group list-group-flush fs-5">
+                        <li class="list-group-item">
+                            Nome Completo: <span class="fw-lighter">Howard Joel Wolowitz</span>
+                        </li>
+                        <li class="list-group-item">
+                            Interpretado por: <span class="fw-lighter">	Simon Helberg</span>
+                        </li>
+                        <li class="list-group-item">
+                            Dublado por: <span class="fw-lighter">Manolo Rey</span>
+                        </li>
+                        <li class="list-group-item">
+                            Apelido: <span class="fw-lighter">Froot Loops</span>
+                        </li>
+                        <li class="list-group-item">
+                            Nascimento: <span class="fw-lighter"> 30 de setembro de 1981</span>
+                        </li>
+                        <li class="list-group-item">
+                            Idade: <span class="fw-lighter">41 anos</span>
+                        </li>
+                        <li class="list-group-item">
+                            Origem: <span class="fw-lighter">Altadena Califórnia</span>
+                        </li>
+                        <li class="list-group-item">
+                            Ocupação: <span class="fw-lighter">Engenheiro Aeroespacial Astronauta (antigo)</span>
+                      </li>
+                        <li class="list-group-item">
+                          Bibliografia: <span class="fw-lighter">Howard Joel Wolowitz , M.Eng., é um engenheiro aeroespacial judeu  e ex-astronauta. Ele é filho de uma mãe autoritária, Debbie Wolowitz , que não se importava com suas realizações científicas e ainda fala com ele como se ele fosse uma criança e Sam Wolowitz , que deixou ele e sua mãe. Como o melhor amigo de Rajesh Koothrappali , Howard muitas vezes sai com ele no apartamento de Leonard e Sheldon. Durante o show, ele namora e eventualmente se casa com Bernadette</span>
+                      </li>
+
+                      </ul> 
+                    </div>
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="50000">
+                    <div class="personagem">
+                      <div class="imagem-personagem rajesh">
+                        <img src="img/Rajesh.png" alt="Rajesh">
+                      </div>
+                      <ul class="list-group list-group-flush fs-5">
+                        <li class="list-group-item">
+                            Nome Completo: <span class="fw-lighter">Rajesh Ramayan Koothrappali</span>
+                        </li>
+                        <li class="list-group-item">
+                            Interpretado por: <span class="fw-lighter">Kunal Nayyar</span>
+                        </li>
+                        <li class="list-group-item">
+                            Dublado por: <span class="fw-lighter">José Leonardo</span>
+                        </li>
+                        <li class="list-group-item">
+                            Apelido: <span class="fw-lighter">Raj</span>
+                        </li>
+                        <li class="list-group-item">
+                            Nascimento: <span class="fw-lighter">6 de outubro de 1981</span>
+                        </li>
+                        <li class="list-group-item">
+                            Idade: <span class="fw-lighter">40 anos</span>
+                        </li>
+                        <li class="list-group-item">
+                            Origem: <span class="fw-lighter">Nova Deli, Índia</span>
+                        </li>
+                        <li class="list-group-item">
+                            Ocupação: <span class="fw-lighter">Astrofísico Planetário Show Narrador</span>
+                      </li>
+                        <li class="list-group-item">
+                          Bibliografia: <span class="fw-lighter">Dr. Rajesh Ramayan "Raj" Koothrappali , Ph.D., é um astrofísico e o melhor amigo de Howard Wolowitz . Ele costuma frequentar o apartamento de Leonard e Sheldon , embora tenha seu próprio apartamento (o Raj Mahal ) em Pasadena . Originalmente de Nova Delhi, Raj tem um sotaque indiano inglês e, ironicamente, não gosta de comida e cultura indianas. Ele frequentemente se retrata como tendo vindo de origens humildes e crescendo na pobreza na Índia, apenas para seus amigos lembrá-lo de que seu pai é um ginecologista.</span>
+                      </li>
+
+                      </ul> 
+                    </div>
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="50000">
+                    <div class="personagem">
+                      <div class="imagem-personagem penny">
+                        <img src="img/penny.jpg" alt="panny">
+                      </div>
+                      <ul class="list-group list-group-flush fs-5">
+                        <li class="list-group-item">
+                            Nome Completo: <span class="fw-lighter">Penny Hofstadter</span>
+                        </li>
+                        <li class="list-group-item">
+                            Interpretado por: <span class="fw-lighter">Kaley Cuoco</span>
+                        </li>
+                        <li class="list-group-item">
+                            Dublado por: <span class="fw-lighter">Fernanda Baronne	</span>
+                        </li>
+                        <li class="list-group-item">
+                            Apelido: <span class="fw-lighter">Patsy</span>
+                        </li>
+                        <li class="list-group-item">
+                            Nascimento: <span class="fw-lighter">2 de dezembro de 1985</span>
+                        </li>
+                        <li class="list-group-item">
+                            Idade: <span class="fw-lighter">36 anos</span>
+                        </li>
+                        <li class="list-group-item">
+                            Origem: <span class="fw-lighter">Omaha, Nebrasca</span>
+                        </li>
+                        <li class="list-group-item">
+                            Ocupação: <span class="fw-lighter">Garçonete (Anteriormente),Atriz (Anteriormente) e Representante de Vendas Farmacêuticas na ZanGen (Atualmente)</span>
+                      </li>
+                        <li class="list-group-item">
+                          Bibliografia: <span class="fw-lighter">Penny Hofstadter ( nascida Teller [1] ), é uma personagem fictícia da sitcom americana The Big Bang Theory , interpretada pela atriz Kaley Cuoco . Ela é a principal personagem feminina da série. Ela mora no apartamento 4A com seu marido Leonard Hofstadter , do outro lado do corredor de Sheldon Cooper e Amy Farrah Fowler , que moram no apartamento 4B, onde Penny morava.</span>
+                      </li>
+
+                      </ul> 
+                    </div>
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="50000">
+                    <div class="personagem">
+                      <div class="imagem-personagem bernadette">
+                        <img src="img/bernadette.jpg" alt="bernadette">
+                      </div>
+                      <ul class="list-group list-group-flush fs-5">
+                        <li class="list-group-item">
+                            Nome Completo: <span class="fw-lighter">Bernadette Maryann Rostenkowski-Wolowitz</span>
+                        </li>
+                        <li class="list-group-item">
+                            Interpretado por: <span class="fw-lighter">Melissa Rauch</span>
+                        </li>
+                        <li class="list-group-item">
+                            Dublado por: <span class="fw-lighter">Christiane Monteiro</span>
+                        </li>
+                        <li class="list-group-item">
+                            Apelido: <span class="fw-lighter">Bernie</span>
+                        </li>
+                        <li class="list-group-item">
+                            Nascimento: <span class="fw-lighter">23 de junho de 1984</span>
+                        </li>
+                        <li class="list-group-item">
+                            Idade: <span class="fw-lighter">37 anos</span>
+                        </li>
+                        <li class="list-group-item">
+                            Origem: <span class="fw-lighter">Yorba Linda, California</span>
+                        </li>
+                        <li class="list-group-item">
+                            Ocupação: <span class="fw-lighter">Garçonete (anteriormente) e Microbiologista da ZanGen Pharmaceuticals</span>
+                      </li>
+                        <li class="list-group-item">
+                          Bibliografia: <span class="fw-lighter">Dra. Bernadette Maryann Rostenkowski-Wolowitz ,( nascida Rostenkowski ), é uma personagem coadjuvante de The Big Bang Theory e ex-garçonete da Cheesecake Factory e obteve seu Ph.D. em microbiologia que tem um emprego lucrativo na empresa farmacêutica ZanGen . Ela começou a namorar Howard Wolowitz em " The Creepy Candy Coating Corollary " e acabou se casando com ele em " The Countdown Reflection.</span>
+                      </li>
+
+                      </ul> 
+                    </div>
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="50000">
+                    <div class="personagem">
+                      <div class="imagem-personagem amy">
+                        <img src="img/amy.jpg" alt="amy">
+                      </div>
+                      <ul class="list-group list-group-flush fs-5">
+                        <li class="list-group-item">
+                            Nome Completo: <span class="fw-lighter">Amy Farrah Fowler</span>
+                        </li>
+                        <li class="list-group-item">
+                            Interpretado por: <span class="fw-lighter">	Mayim Bialik</span>
+                        </li>
+                        <li class="list-group-item">
+                            Dublado por: <span class="fw-lighter">Sylvia Salustti</span>
+                        </li>
+                        <li class="list-group-item">
+                            Apelido: <span class="fw-lighter">Ames</span>
+                        </li>
+                        <li class="list-group-item">
+                            Nascimento: <span class="fw-lighter">17 de dezembro de 1979</span>
+                        </li>
+                        <li class="list-group-item">
+                            Idade: <span class="fw-lighter">42 anos</span>
+                        </li>
+                        <li class="list-group-item">
+                            Origem: <span class="fw-lighter">Glendale, Califórnia</span>
+                        </li>
+                        <li class="list-group-item">
+                            Ocupação: <span class="fw-lighter">Neurobiólogo</span>
+                      </li>
+                        <li class="list-group-item">
+                          Bibliografia: <span class="fw-lighter">Amy é de Glendale , Califórnia . Ela também é doutora em neurobiologia pela Universidade de Harvard, inspirada no doutorado do próprio ator Mayim Bialik.Ela inicialmente foi descoberta por Raj e Howard como uma possível combinação para Sheldon através de um serviço de namoro online. Pela própria admissão de Sheldon, ela é mais parecida com ele em qualquer padrão. Como ele, ela evitou relacionamentos anteriormente (se romântico ou não, é totalmente incerto). Ela tem seu próprio apartamento . Ela também tem um plano de cinco anos para se tornar a Sra. Cooper </span>
+                      </li>
+
+                      </ul> 
+                    </div>
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            </div>
+        </section>
+
+        <section id="mais-informacao" class="section-bg mt-5 pb-5">
+            <div class="container pt-3">
+              <h1 class="text-white"  data-anime="down">Mais Informações</h1>
+              <p class="text-white"  data-anime="left">Aqui você vai ter uma informação melhor sobre a série. Assistindo o um pouco do primeiro episódio e vendo o quanto essa série tem a oferecer. </p>
+              <div class="container-video shadow"  data-anime="up">
+                <video controls poster="img/506328.jpg">
+                  <source src="img/primeiroEp.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+        </section>
+          
+    </main>
+
+    <footer class=" pb-5">
+          <div class="container" data-anime="down">
+            <div class="footer-redes">
+              <p data-anime="rigth">Feito Por Guilherme Gonçalves Lisboa. Aqui em baixo está minhas redes socias e github</p>
+              <div class="icons">
+                <a href="https://www.instagram.com/guime.lisboa/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/guilherme-gon%C3%A7alves-lisboa-abb8b0227/" target="_blank" ><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/GuilhermeLisboa3" target="_blank"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>     
+    </footer>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

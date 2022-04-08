@@ -1,0 +1,219 @@
+@media (max-width:1160px) {
+    .color-top-menu{
+        position: fixed;
+        left: -300px;
+        bottom: 0;
+        top:0;
+        width: 300px;
+    }
+    .menu-nav-active .color-top-menu{
+        overflow: hidden;
+    }
+    .menu-nav-active{
+        left: 0px;
+    }
+    .section_menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .section_menu .menu >svg{
+        width: 200px;
+        height: 200px;
+        margin-left: 40px;
+    }
+    .section_menu .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+    .section_menu .nav a{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .section_menu .nav .icon{
+        display:inline ;
+        padding-right: 8px;
+        text-align: center;
+        font-size: 1.8rem;
+     }
+    #main .painel{
+        display: flex;
+        flex-direction: column;
+    }
+    i.menu-mobile{
+        display: flex;
+        z-index: 9999;
+    }
+}
+
+@media (max-width:994px) {
+    .itens,.itens2{
+        margin: auto auto;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .carousel-control-prev{
+        margin-left: 0rem;
+    }
+    .carousel-control-next{
+        margin-right: 0rem;
+    }
+    .carousel-indicators{
+        margin-bottom: -2rem;
+    }
+
+
+    .personagem{
+       display: flex;
+       flex-direction: column;
+    }
+    .personagem .imagem-personagem{
+        width: 50%;
+        margin: auto auto;
+    }
+    .personagem img{
+        width: 100%;
+    }
+
+    .personagem .leonard{
+        width: 61%;
+        margin: auto auto;
+    }
+    .personagem .howard{
+        width: 53%;
+        margin: auto auto;
+    }
+    .personagem .rajesh{
+        width: 44.7%;
+        margin: auto auto;
+    }
+    .personagem .penny{
+        width: 53.1%;
+        margin: auto auto;
+    }
+    .personagem .bernadette{
+        width: 57%;
+        margin: auto auto;
+    }
+    .personagem .amy{
+        width: 54.3%;
+        margin: auto auto;
+    }
+
+    #personagens .carousel-control-prev{
+        margin-left: 2rem;
+        margin-top: -40rem;
+    }
+    #personagens .carousel-control-next{
+        margin-right: 2rem;
+        margin-top: -40rem;
+    }
+
+
+    .container-video{
+        width: 400px;
+        height: 200px;
+        margin:29px auto 0px;
+    }
+
+    .footer-redes p{
+        width: 66%;
+        text-align: center;
+    }
+}
+
+@media (max-width:430px) {
+    #personagens .carousel-control-prev{
+        margin-left: -1rem;
+        margin-top: -48rem;
+    }
+    #personagens .carousel-control-next{
+        margin-right: -1rem;
+        margin-top: -48rem;
+    }
+
+    .container-video{
+        width: 250px;
+        height: 200px;
+        margin:29px auto 0px;
+    }
+
+    .footer-redes p{
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+
+    .personagem .leonard{
+        width: 77.5%;
+        margin: auto auto;
+    }
+    .personagem .howard{
+        width: 62.3%;
+        margin: auto auto;
+    }
+    .personagem .rajesh{
+        width: 44.7%;
+        margin: auto auto;
+    }
+    .personagem .penny{
+        width: 73.5%;
+        margin: auto auto;
+    }
+    .personagem .bernadette{
+        width: 73.5%;
+        margin: auto auto;
+    }
+    .personagem .amy{
+        width: 62.3%;
+        margin: auto auto;
+    }
+}
+@media (max-width:346px) {
+    #personagens .carousel-control-prev{
+        margin-left:-1.3rem;
+        margin-top: -66rem;
+    }
+    #personagens .carousel-control-next{
+        margin-right:-1.3rem;
+        margin-top: -66rem;
+    }
+
+    .personagem .leonard{
+        width: 84.3%;
+        margin: auto auto;
+    }
+    .personagem .howard{
+        width: 62.3%;
+        margin: auto auto;
+    }
+    .personagem .rajesh{
+        width: 44.7%;
+        margin: auto auto;
+    }
+    .personagem .penny{
+        width: 73.5%;
+        margin: auto auto;
+    }
+    .personagem .bernadette{
+        width: 73.5%;
+        margin: auto auto;
+    }
+    .personagem .amy{
+        width: 62.3%;
+        margin: auto auto;
+    }
+}
+@media (max-width:320px) {
+    #personagens .carousel-control-prev{
+        margin-left: -1rem;
+        margin-top: -66rem;
+    }
+    #personagens .carousel-control-next{
+        margin-right: -1rem;
+        margin-top: -66rem;
+    }
+}
